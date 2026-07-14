@@ -1,6 +1,64 @@
+## =========================
+## .NET / ASP.NET Core (backend/TheBlock.Api)
+## =========================
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.userosscache
+*.sln.docstates
+
+# EF Core / migrations are fine to commit — do NOT ignore Migrations/
+
+# Local, machine-specific settings (safe to ignore even though our
+# current appsettings.json has no real secrets, just good hygiene)
+appsettings.Development.json
+appsettings.Local.json
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+
+## =========================
+## Node / React / Vite (frontend/the-block-web)
+## =========================
 node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Vite
+.vite/
+
+# Env files (none currently in use, but standard practice)
 .env
 .env.local
+.env.*.local
+
+## =========================
+## Editor / OS noise
+## =========================
+.vscode/*
+!.vscode/extensions.json
+.idea/
 .DS_Store
+Thumbs.db
+
+## =========================
+## Docker
+## =========================
+# (docker-compose.yml itself IS committed on purpose — it's part of
+# the "clone and run" setup, not a secret)
+
+## =========================
+## Misc
+## =========================
 *.log
-*.bak
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

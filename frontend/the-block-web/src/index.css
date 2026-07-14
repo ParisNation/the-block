@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-openlane-blue: #0061FF;
+  --color-openlane-navy: #0A1B5F;
+  --color-openlane-blue-25: #F5F9FF;
+  --color-openlane-blue-50: #E5EFFF;
+  --color-openlane-blue-100: #CCE0FF;
+  --color-openlane-blue-200: #99C0FF;
+  --color-openlane-blue-300: #66A1FF;
+  --color-openlane-blue-900: #0B0B4A;
+  --color-openlane-silver-light-1: #F9F9F9;
+  --color-openlane-silver-light-2: #F5F5F5;
+  --color-openlane-silver: #C3C3C3;
+  --color-openlane-silver-medium: #707070;
+  --color-openlane-silver-dark: #262626;
+
+  --radius-button: 999px;
+  --radius-card-lg: 24px;
+  --radius-card-sm: 16px;
+}
